@@ -1,11 +1,45 @@
-body{
-  background-color:white;
-  
-}
 
 .welcome {
-    width: 300px;
-    border: 25px solid ;
-    padding: 25px;
-    margin: 25px;
+  margin: auto;
+  width: 290px;
+  padding-top: 3px;
+}
+
+.welcome1{
+  margin: auto;
+  width: 440px;
+  padding-top: 3px;
+text-align: center;
+}
+
+
+
+a{
+ text-decoration:none;
+ color:black;
+}
+a.button,div.container{
+ float:left;
+}
+a.button{
+ background-color:black;
+ border:1px solid black;
+ border-radius:5px;
+ color:white;
+ margin-right:10px;
+ padding:10px 10px 10px 10px;
+}
+
+div.container{
+ width:100%;
+ clear:both;
+
+}
+.container{
+  padding-left: 30%;
+
+}
+#coming{
+  font-size: 19px;
+  font-style: italic;
 }
